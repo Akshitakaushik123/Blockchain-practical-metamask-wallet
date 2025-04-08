@@ -1,3 +1,4 @@
+![Screenshot 2025-04-07 213239](https://github.com/user-attachments/assets/8f53c1eb-52cf-471e-9db2-0eabbe089740)
 # Blockchain-practical-metamask-wallet
 This repo contains my blockchain practical screenshots and transaction hash.
 # Create Metamask Wallet (Sepolia Testnet)
@@ -16,7 +17,12 @@ Status : Successful
 2. Claimed Sepolia ETH from faucet.
 3. Sent ETH to another Address.
 4. Verified transaction was confirmed.
-
+5. 
 ## Screenshot
 Below is the screenshot of the transaction:
 ![Metamask Screenshot](images/Metamask.png)
+
+
+```
+Print
+```
