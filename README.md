@@ -22,8 +22,3 @@ Status : Successful
 Below is the screenshot of the transaction:
 ![Screenshot 2025-04-07 213239](https://github.com/user-attachments/assets/8f53c1eb-52cf-471e-9db2-0eabbe089740)
 
-
-
-```
-Print
-```
