@@ -19,4 +19,4 @@ Status : Successful
 
 ## Screenshot
 Below is the screenshot of the transaction:
-![Metamask Screenshot](./Metamask.png)
+![Metamask Screenshot](images/Metamask.png)
