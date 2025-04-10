@@ -58,6 +58,113 @@ https://docs.ipfs.tech/install/ipfs-desktop/
 ![Screenshot 2025-04-10 125946](https://github.com/user-attachments/assets/fa3b9104-c34f-4fcf-962e-642e8cef45c1)
 
 
+# Hyperledger Fabric Practical
+1. Install Golang
+```
+sudo apt install golang-go
+```
+Installs Golang, which is necessary for running Hyperledger Fabric binaries.
+
+## Screenshot
+![Screenshot 2025-04-10 185728](https://github.com/user-attachments/assets/f02e6cc0-00cb-4023-b30e-13baa5dd98c2)
+
+
+2. Check Docker Version
+```
+docker --version
+```
+Verifies that Docker is installed and running correctly.
+
+## Screenshot
+![Screenshot 2025-04-10 185749](https://github.com/user-attachments/assets/9baee78b-530f-43c1-8963-4efe00f0eb3f)
+
+
+3. Check Docker Compose Version
+```
+docker-compose --version
+```
+Verifies the installation of Docker Compose.
+
+## Screenshot
+![Screenshot 2025-04-10 185804](https://github.com/user-attachments/assets/03fe5319-cd88-47a6-a068-6eebf9df2730)
+
+
+
+4. List Files in Current Directory
+```
+ls
+```
+Shows the list of files and folders in the current directory.
+
+
+5. Clone the Fabric Samples Repository and  Move into the Cloned Folder
+```
+git clone https://github.com/Akshitakaushik123/fabric-samples.git; cd fabric-samples
+```
+Downloads the official Hyperledger Fabric sample code from GitHub.
+Enters the cloned folder where Fabric examples are available.
+
+## Screenshot
+![Screenshot 2025-04-10 185857](https://github.com/user-attachments/assets/e91eb998-e761-4070-bb20-cacc3b0f9480)
+![Screenshot 2025-04-10 190035](https://github.com/user-attachments/assets/cbe5bdd1-b025-4c91-8fa5-85731caaf946)
+
+
+6.  Download Fabric Binaries
+```
+curl -sSL https://bit.ly/2ysbOFE | bash -s
+```
+Downloads necessary Fabric binaries and Docker images like peer, orderer, and cryptogen.
+
+## Screenshot
+
+
+
+
+7.Enter the Test Network Directory
+```
+cd test-network
+```
+Navigates to the directory that contains scripts for running a sample Fabric network.
+
+## Screenshot
+
+
+
+8.  View the Network Script
+```
+./network.sh
+```
+Shows the options available with the network.sh script.
+
+## Screenshot
+
+
+9. Start the Fabric Network
+```
+./network.sh up
+```
+Starts the network by launching peer, orderer, and CA containers, and generates the required cryptographic materials.
+
+## Screenshot
+
+
+10. Create a Channel
+```
+./network.sh createChannel
+```
+Creates a default channel (usually named mychannel) and joins the peers to it.
+
+## Screenshot
+
+
+11. Shut Down the Network
+```
+./network.sh down
+```
+Stops all containers and deletes the crypto material and artifacts created during the setup.
+
+## Screenshot
+
 
 
 
