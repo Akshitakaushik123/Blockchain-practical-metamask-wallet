@@ -116,6 +116,8 @@ curl -sSL https://bit.ly/2ysbOFE | bash -s
 Downloads necessary Fabric binaries and Docker images like peer, orderer, and cryptogen.
 
 ## Screenshot
+![Screenshot 2025-04-10 200854](https://github.com/user-attachments/assets/3a308cd5-4e60-4e36-a164-8c9089763d8f)
+![Screenshot 2025-04-10 200927](https://github.com/user-attachments/assets/a1af3740-ced3-4e55-a9dd-e3e2ffd02bc0)
 
 
 
@@ -127,6 +129,7 @@ cd test-network
 Navigates to the directory that contains scripts for running a sample Fabric network.
 
 ## Screenshot
+![Screenshot 2025-04-10 191001](https://github.com/user-attachments/assets/ec0b17d1-a4f6-4e0f-b0db-1f564288c6d5)
 
 
 
@@ -137,6 +140,8 @@ Navigates to the directory that contains scripts for running a sample Fabric net
 Shows the options available with the network.sh script.
 
 ## Screenshot
+![Screenshot 2025-04-10 190210](https://github.com/user-attachments/assets/2381a5c2-20e8-4f8c-8ba0-63b8422618e0)
+
 
 
 9. Start the Fabric Network
@@ -146,6 +151,7 @@ Shows the options available with the network.sh script.
 Starts the network by launching peer, orderer, and CA containers, and generates the required cryptographic materials.
 
 ## Screenshot
+
 
 
 10. Create a Channel
