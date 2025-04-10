@@ -106,7 +106,7 @@ Enters the cloned folder where Fabric examples are available.
 
 ## Screenshot
 ![Screenshot 2025-04-10 185857](https://github.com/user-attachments/assets/e91eb998-e761-4070-bb20-cacc3b0f9480)
-![Screenshot 2025-04-10 190035](https://github.com/user-attachments/assets/cbe5bdd1-b025-4c91-8fa5-85731caaf946)
+
 
 
 6.  Download Fabric Binaries
@@ -151,6 +151,8 @@ Shows the options available with the network.sh script.
 Starts the network by launching peer, orderer, and CA containers, and generates the required cryptographic materials.
 
 ## Screenshot
+![Screenshot 2025-04-10 201603](https://github.com/user-attachments/assets/7c24ed7b-e32e-4f7a-845f-fda0a0a90e99)
+
 
 
 
@@ -161,6 +163,9 @@ Starts the network by launching peer, orderer, and CA containers, and generates 
 Creates a default channel (usually named mychannel) and joins the peers to it.
 
 ## Screenshot
+![Screenshot 2025-04-10 201754](https://github.com/user-attachments/assets/6dc7ed0d-44a1-4f1a-a2db-0e9a743433e3)
+![Screenshot 2025-04-10 201844](https://github.com/user-attachments/assets/4a69f43b-6d31-4231-827b-5a746dff06a0)
+
 
 
 11. Shut Down the Network
@@ -170,6 +175,7 @@ Creates a default channel (usually named mychannel) and joins the peers to it.
 Stops all containers and deletes the crypto material and artifacts created during the setup.
 
 ## Screenshot
+![Screenshot 2025-04-10 201947](https://github.com/user-attachments/assets/e9636909-e96c-4912-8402-4c16ff6f7745)
 
 
 
