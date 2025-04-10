@@ -49,10 +49,13 @@ https://docs.ipfs.tech/install/ipfs-desktop/
 
 ## File Upload
 1) I clicked on the file section in IPFS Desktop.
-2) Then i selected the option "Import" and uploaded a sample file and music also.
+2) Then i selected the option "Import" and uploaded a sample file, picture of flower and music also.
 3) Once the file was uploaded, IPFS generate a unique CID(Content Identifier) for the file.
 
 ![Screenshot 2025-04-08 121016](https://github.com/user-attachments/assets/75374fe5-1099-4a28-919f-a5e4a477a4d5)
+
+![Screenshot 2025-04-10 125946](https://github.com/user-attachments/assets/fa3b9104-c34f-4fcf-962e-642e8cef45c1)
+
 
 
 
