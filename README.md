@@ -177,29 +177,19 @@ Stops all containers and deletes the crypto material and artifacts created durin
 ## Screenshot
 ![Screenshot 2025-04-10 201947](https://github.com/user-attachments/assets/e9636909-e96c-4912-8402-4c16ff6f7745)
 
-#solidity
+
+# Solidity
 
 
 
 Step 1: Set Up the Development Environment
-You’ll need tools to write and deploy Solidity code. Most beginners start with:
-
-✅ Remix IDE (Recommended for beginners)
 
 Website: https://remix.ethereum.org
 
 It’s an online editor where you can write, test, and deploy Solidity code directly in your browser. No installation needed.
 
-Other tools (for later):
-
-VS Code + Hardhat or Truffle for more advanced development.
-
-Metamask wallet for interacting with deployed smart contracts.
-
-
 
 Step 2: Write Your First Smart Contract (in Solidity)
-Example:
 
 
 
@@ -220,7 +210,7 @@ Choose Environment as "JavaScript VM" (for testing in browser).
 
 Click Deploy.
 
-After deployment, your contract will appear in the Deployed Contracts section.
+After deployment, contract will appear in the Deployed Contracts section.
 
 Step 5: Interact with the Contract
 Now you can:
@@ -231,14 +221,7 @@ Use setMessage() to change the message.
 
 This simulates how smart contracts work on blockchain.
 
-Step 6 : (Optional) Deploy on Testnet
-Once you're comfortable:
 
-Connect your MetaMask wallet.
-
-Switch Remix to Injected Web3.
-
-Deploy to Ethereum testnets like Sepolia or Goerli using test ETH.
 
 
 
