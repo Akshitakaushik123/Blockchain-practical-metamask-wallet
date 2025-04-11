@@ -190,10 +190,17 @@ It’s an online editor where you can write, test, and deploy Solidity code dire
 
 
 Step 2: Write Your First Smart Contract (in Solidity)
+```
+pragma solidity ^0.8.0;
 
+contract HelloWorld {
+    string public message = "Hello Blockchain!";
 
-
-![image](https://github.com/user-attachments/assets/d92ed1f0-35ba-42cc-9137-50c690e2c95d)
+    function setMessage(string memory newMessage) public {
+        message = newMessage;
+    }
+}
+```
 
 
 Step 3: Compile the Contract
@@ -202,6 +209,8 @@ In Remix:
 Click on the Solidity compiler tab (compiler icon).
 
 Click Compile to check for errors.
+![Screenshot 2025-04-11 103802](https://github.com/user-attachments/assets/c07673ec-496e-4ebc-b65d-76a7dcdc49b4)
+
 
 Step 4: Deploy the Smart Contract
 Go to the Deploy & Run Transactions tab in Remix.
