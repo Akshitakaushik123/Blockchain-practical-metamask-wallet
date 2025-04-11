@@ -7,10 +7,10 @@ This repo contains my blockchain practical screenshots and transaction hash.
 This is a practical task demonstrate how to create a Metamask wallet and perform a transaction using the Sepolia Testnet.
 
 ## Transaction details
-Network : Sepolia Testent
-Amount Sent : 0.02 ETH
-Transaction hash: 0x7cf27df61b25a56c316ceaf087a566567c4283908cebf60da27fdcc4a4bd9172[view transaction on etherscan](https://sepolia.etherscan.io/tx/0x7cf27df61b25a56c316ceaf087a566567c4283908cebf60da27fdcc4a4bd9172)
-Status : Successful
+1) Network : Sepolia Testent
+2) Amount Sent : 0.02 ETH
+3) Transaction hash: 0x7cf27df61b25a56c316ceaf087a566567c4283908cebf60da27fdcc4a4bd9172[view transaction on etherscan](https://sepolia.etherscan.io/tx/0x7cf27df61b25a56c316ceaf087a566567c4283908cebf60da27fdcc4a4bd9172)
+4) Status : Successful
 
 ## Getting Sepolia ETH from Faucet
 1) Visited the google cloud Sepolia Faucet.
