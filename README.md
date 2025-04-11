@@ -81,7 +81,7 @@ Verifies that Docker is installed and running correctly.
 
 3. Check Docker Compose Version
 ```
-docker-compose --version
+docker compose version
 ```
 Verifies the installation of Docker Compose.
 
