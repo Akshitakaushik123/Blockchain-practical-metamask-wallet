@@ -1,4 +1,4 @@
-
+# Practical 1
 # Blockchain-practical-metamask-wallet
 This repo contains my blockchain practical screenshots and transaction hash.
 # Create Metamask Wallet (Sepolia Testnet)
@@ -35,6 +35,7 @@ Below is the screenshot of the transaction:
 ![Screenshot 2025-04-07 213239](https://github.com/user-attachments/assets/8f53c1eb-52cf-471e-9db2-0eabbe089740)
 
 
+# Practical 2
 # IPFS Practical - Uploading a file to IPFS
 # IPFS Installation
 I downloaded and install IPFS desktop for windows from the official website :
@@ -46,7 +47,6 @@ https://docs.ipfs.tech/install/ipfs-desktop/
 
 ![Screenshot 2025-04-07 231756](https://github.com/user-attachments/assets/ea26e2be-042a-4718-aeea-efcce3058241)
 
-
 ## File Upload
 1) I clicked on the file section in IPFS Desktop.
 2) Then i selected the option "Import" and uploaded a sample file, picture of flower and music also.
@@ -57,7 +57,70 @@ https://docs.ipfs.tech/install/ipfs-desktop/
 
 ![Screenshot 2025-04-10 125946](https://github.com/user-attachments/assets/fa3b9104-c34f-4fcf-962e-642e8cef45c1)
 
+## Encrypting and Decrypting
 
+1) Download IPFS CLI:
+```
+wget https://dist.ipfs.tech/go-ipfs/v0.22.0/go-ipfs_v0.22.0_linux-amd64.tar.gz
+```
+2) Extract the tar file:
+```
+tar -xvzf go-ipfs_v0.22.0_linux-amd64.tar.gz
+```
+3) Install IPFS:
+```
+cd go-ipfs
+./install.sh
+```
+4)  Initialize IPFS Node
+```
+~/.local/bin/ipfs init
+```
+5) Start IPFS Daemon
+```
+~/.local/bin/ipfs daemon
+```
+
+6) Create a sample file
+```
+echo "hello, IPFS!" > hello.txt
+```
+
+7) Add original file to IPFS
+```
+~/.local/bin/ipfs add hello.txt
+```
+
+8) Encrypt the file using OpenSSL
+```
+openssl enc -aes-256-cbc -pbkdf2 -iter 100000 -salt -in hello.txt -out hello.enc
+```
+
+9) Upload the encrypted file to IPFS
+ ```
+~/.local/bin/ipfs add hello.enc
+```
+
+10) Decrypt the file
+ ```
+openssl enc -d -aes-256-cbc -pbkdf2 -iter 100000 -in retrieved.enc -out decrypted.txt
+```
+
+11) See decrypted content
+```
+cat decrypted.txt
+```
+
+12) Add decrypted file to IPFS
+```
+~/.local/bin/ipfs add decrypted.txt
+```
+## Screenshot
+![Screenshot 2025-04-18 125935](https://github.com/user-attachments/assets/cfb1cbb8-1108-4fe2-a40f-6b334822c78a)
+
+
+
+# Practical 3
 # Hyperledger Fabric Practical
 1. Install Golang
 ```
@@ -178,6 +241,7 @@ Stops all containers and deletes the crypto material and artifacts created durin
 ![Screenshot 2025-04-10 201947](https://github.com/user-attachments/assets/e9636909-e96c-4912-8402-4c16ff6f7745)
 
 
+# Practical 4
 # Solidity
 
 
